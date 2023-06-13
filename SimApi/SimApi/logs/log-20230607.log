@@ -1,0 +1,71 @@
+2023-06-07 16:48:33.541 [INF] Application is starting...
+2023-06-07 16:54:24.082 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 16:54:24.085 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 16:54:24.087 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 16:54:25.767 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-07 16:54:25.771 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-07 16:54:26.590 [INF] -------------Request-Begin------------
+2023-06-07 16:54:26.592 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Transaction 
+QueryString:  
+Request Body: 
+2023-06-07 16:54:26.592 [INF] 
+
+2023-06-07 16:54:26.593 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Transaction 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-07 16:54:26.594 [INF] -------------Request-End------------
+2023-06-07 16:55:00.713 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 16:55:00.718 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 16:55:00.719 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 16:55:08.931 [INF] -------------Request-Begin------------
+2023-06-07 16:55:08.933 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport 
+QueryString:  
+Request Body: 
+2023-06-07 16:55:08.934 [INF] 
+
+2023-06-07 16:55:08.934 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-07 16:55:08.935 [INF] -------------Request-End------------
+2023-06-07 16:59:55.043 [INF] Application is starting...
+2023-06-07 17:19:14.117 [INF] Application is starting...
+2023-06-07 17:19:25.329 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 17:19:25.333 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 17:19:25.335 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 17:21:36.548 [INF] Application is starting...
+2023-06-07 17:21:43.166 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-07 17:21:43.169 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-07 17:21:43.172 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-07 17:21:54.024 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-07 17:21:54.030 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-07 17:22:36.152 [INF] -------------Request-Begin------------
+2023-06-07 17:22:36.153 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Category 
+QueryString:  
+Request Body: 
+2023-06-07 17:22:36.155 [INF] 
+
+2023-06-07 17:22:36.156 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: []
+2023-06-07 17:22:36.157 [INF] -------------Request-End------------

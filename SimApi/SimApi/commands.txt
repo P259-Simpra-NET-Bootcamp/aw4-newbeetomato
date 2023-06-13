@@ -1,0 +1,9 @@
+﻿
+migration add (on Data project directory)
+dotnet ef migrations add RefNumber -s ../SimApi/
+
+update database (on sln directory)
+dotnet ef database update --project "./SimApi.Data" --startup-project "./SimApi"
+
+komutu çalıştırın: Add-Migration InitialCreate
+Migration dosyası oluşturulduktan sonra update komutunu çalıştırarak veritabanını güncelleyin: Update-Database
